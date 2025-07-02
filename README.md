@@ -111,15 +111,14 @@ cat miArchivo.txt
 
 ```bash
 git remote add origin https://github.com/donatogomez/git-exercises-donato.git
+# error: remote origin already exists.
+
 git remote -v
-
-# Primera subida
+git remote set-url origin git@github.com:donatogomez/git-exercises-donato.git
+ssh -T git@github.com
 git push -u origin main
-
-# Cambiar la URL si fuese necesario
-git remote set-url origin <nueva-URL>
 ```
-> Se vincula el repositorio local con GitHub, se verifica la configuración remota, y se realiza el primer push. También se incluye cómo modificar la URL en caso de haber un error en la configuración inicial.
+> Inicialmente intentamos añadir el remoto con HTTPS, pero como ya existía, usamos git remote set-url para reemplazarlo por una conexión SSH. Confirmamos que la autenticación SSH es correcta con ssh -T, y finalmente empujamos la rama principal (main) con seguimiento (-u).
 
 📸 Captura:  
 ![Ejercicio 6](./screenshots/ejercicio6-push.png)
