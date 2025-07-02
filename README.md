@@ -74,7 +74,9 @@ git commit -m "feat: añadida nueva línea a miArchivo.txt"
 > Se modifica el archivo existente, se revisan los cambios pendientes y se registra una nueva versión. El uso de git diff permite auditar lo que será incluido en el commit.
 
 📸 Captura:  
-![Ejercicio 3](./screenshots/ejercicio3-status-diff-commit.png)
+![Ejercicio 3 - 1](./screenshots/ejercicio3-status-diff-commit-1.png)
+![Ejercicio 3 - 2](./screenshots/ejercicio3-status-diff-commit-2.png)
+![Ejercicio 3 - 3](./screenshots/ejercicio3-status-diff-commit-3.png)
 
 ## Ejercicio 4 – Creación y manejo de ramas
 
@@ -91,7 +93,7 @@ cat miArchivo.txt
 > Se crea una nueva rama de desarrollo con un nombre semántico (feature/nueva-rama) y se realizan cambios aislados sobre ella. Se compara el contenido del archivo en ambas ramas para evidenciar la independencia.
 
 📸 Captura:  
-![Ejercicio 4](./screenshots/ejercicio1-configuracion.png)
+![Ejercicio 4](./screenshots/ejercicio4-branch-checkout.png)
 
 ## Ejercicio 5 – Integración de cambios con merge
 
@@ -103,7 +105,7 @@ cat miArchivo.txt
 > Se integran los cambios de la rama secundaria feature/nueva-rama en la principal main. Se verifica el contenido del archivo tras el merge. En casos reales, es útil revisar el historial con git log --oneline --graph.
 
 📸 Captura:  
-![Ejercicio 5](./screenshots/ejercicio1-configuracion.png)
+![Ejercicio 5](./screenshots/ejercicio5-merge-main.png)
 
 ## Ejercicio 6 – Trabajo con repositorios remotos
 
@@ -120,7 +122,7 @@ git remote set-url origin <nueva-URL>
 > Se vincula el repositorio local con GitHub, se verifica la configuración remota, y se realiza el primer push. También se incluye cómo modificar la URL en caso de haber un error en la configuración inicial.
 
 📸 Captura:  
-![Ejercicio 6](./screenshots/ejercicio1-configuracion.png)
+![Ejercicio 6](./screenshots/ejercicio6-push.png)
 
 ---
 
