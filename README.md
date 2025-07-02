@@ -138,5 +138,3 @@ Para mantener un historial de versiones claro, estructurado y profesional, se ha
 | `refactor:`  | Reorganización del código sin modificar el comportamiento.               |
 | `chore:`     | Tareas auxiliares como estructura inicial, configuración, `.gitignore`.  |
 | `test:`      | Inclusión de pruebas o validación manual del comportamiento (si aplica). |
-
-> 💡 Estas etiquetas no son obligatorias, pero demuestran claridad y profesionalidad en el control de versiones. En este repositorio se han utilizado para reflejar el tipo de cada commit de forma explícita.
